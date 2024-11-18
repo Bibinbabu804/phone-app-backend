@@ -4,15 +4,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "server": "nodemon server.js"
+    "server": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@paypal/checkout-server-sdk": "^1.0.3",
-    "@paypal/react-paypal-js": "^8.7.0",
     "backend": "file:",
     "bcrypt": "^5.1.1",
     "cloudinary": "^2.5.1",
@@ -25,7 +23,6 @@
     "nodemon": "^3.1.7",
     "razorpay": "^2.9.4",
     "socket.io": "^4.8.0",
-    "stripe": "^17.2.0",
     "validator": "^13.12.0"
   }
 }
